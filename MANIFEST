@@ -1,8 +1,8 @@
+Changes
 lib/Readonly/Enum.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
-MYMETA.json
-MYMETA.yml
+README
 t/01-basic.t
