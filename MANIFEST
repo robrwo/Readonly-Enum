@@ -1,0 +1,8 @@
+lib/Readonly/Enum.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+META.yml
+MYMETA.json
+MYMETA.yml
+t/01-basic.t

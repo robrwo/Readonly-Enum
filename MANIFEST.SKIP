@@ -1,0 +1,12 @@
+.*~$
+.*\.(bak|old)$
+\.git/.*
+\.gitignore
+
+^Makefile$
+
+^blib/
+^pm_to_blib$
+
+Readonly-Enum-.*\.tar\.gz
+
