@@ -1,5 +1,5 @@
 NAME
-    Readonly::Enum - enumrated scalar values
+    Readonly::Enum - enumerated scalar values
 
 SYNOPSYS
       use Readonly::Enum;
@@ -30,7 +30,7 @@ AUTHOR
     Robert Rothenberg `rrwo@cpan.org'.
 
 LICENSE AND COPYRIGHT
-    Copyright 2012 Robert Rothenberg.
+    Copyright 2013 Robert Rothenberg.
 
     This program is free software; you can redistribute it and/or modify it
     under the terms of the the Artistic License (2.0). You may obtain a copy
