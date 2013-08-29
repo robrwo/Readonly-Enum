@@ -15,7 +15,7 @@ tests_recursive('t');
 resources (
    license    => 'http://www.perlfoundation.org/artistic_license_2_0',
    repository => 'git://github.com/robrwo/Readonly-Enum.git',
-#   bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Readonly-Enum',
+   bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Readonly-Enum',
 );
 
 configure_requires (
