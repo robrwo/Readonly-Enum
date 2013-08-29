@@ -5,7 +5,7 @@ use v5.10;
 use strict;
 use warnings;
 
-use version 0.77; our $VERSION = version->declare("v0.1.2");
+use version 0.77; our $VERSION = version->declare("v0.1.3");
 
 use Scalar::Readonly qw/ readonly_on /;
 
@@ -13,7 +13,7 @@ use Scalar::Readonly qw/ readonly_on /;
 
 Readonly::Enum - enumerated scalar values
 
-=head1 SYNOPSYS
+=head1 SYNOPSIS
 
   use Readonly::Enum;
 
