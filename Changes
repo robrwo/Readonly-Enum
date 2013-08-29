@@ -6,6 +6,8 @@ v0.1.2	Thu Aug 29 22:14:08 BST 2013
 
 	* Minimum perl version is v5.10.
 
+	* Fixed MANIFEST.
+
 v0.1.1  Thu Aug 29 21:26:00 BST 2013
 
   	* Initial release on CPAN.
