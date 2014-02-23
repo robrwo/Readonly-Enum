@@ -1,4 +1,8 @@
-v0.1.4
+Revision history of Readonly-Enum
+
+v0.1.4  2014-02-23
+
+        - Added STATUS section about this module being deprecated.
 
         - Corrected typo in Changes and reformatted to
           CPAN::Changes::Spec.
