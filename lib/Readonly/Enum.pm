@@ -40,6 +40,11 @@ and interpolated in strings.
 
 Unlike L<enum>, only integers are supported in this version.
 
+=head1 STATUS
+
+This module is no longer maintained. See L<Const::Exporter> for
+similar functionality.
+
 =head1 AUTHOR
 
 Robert Rothenberg C<rrwo@cpan.org>.
