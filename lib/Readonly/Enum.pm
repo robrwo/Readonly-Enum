@@ -5,7 +5,7 @@ use v5.10;
 use strict;
 use warnings;
 
-use version 0.77; our $VERSION = version->declare("v0.1.3");
+use version 0.77; our $VERSION = version->declare("v0.1.4");
 
 use Scalar::Readonly qw/ readonly_on /;
 
@@ -19,15 +19,15 @@ Readonly::Enum - enumerated scalar values
 
   # $foo = 1, $bar = 2, etc.
 
-  Readonly::Enum my ($foo, $bar, $baz); 
+  Readonly::Enum my ($foo, $bar, $baz);
 
   # $foo = 0, $bar = 1, etc.
 
-  Readonly::Enum my ($foo, $bar, $baz) => 0; 
+  Readonly::Enum my ($foo, $bar, $baz) => 0;
 
   # $foo = 0, $bar = 5, $baz = 6, etc.
 
-  Readonly::Enum my ($foo, $bar, $baz) => (0, 5); 
+  Readonly::Enum my ($foo, $bar, $baz) => (0, 5);
 
 =head1 DESCRIPTION
 
@@ -46,7 +46,7 @@ Robert Rothenberg C<rrwo@cpan.org>.
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2013 Robert Rothenberg.
+Copyright 2013-2014 Robert Rothenberg.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a
