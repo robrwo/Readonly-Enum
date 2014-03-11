@@ -1,5 +1,7 @@
 Revision history of Readonly-Enum
 
+        - Removed unnecessary dependency from Makefile.PL
+
 v0.1.4  2014-02-23
 
         - Added STATUS section about this module being deprecated.

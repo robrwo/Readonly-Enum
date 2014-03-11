@@ -18,9 +18,7 @@ resources (
    bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Readonly-Enum',
 );
 
-configure_requires (
-   'Module::Install' => 0,
-);
+configure_requires ();
 
 build_requires (
    'Test::More' => 0,
