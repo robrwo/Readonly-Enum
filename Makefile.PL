@@ -6,7 +6,7 @@ use inc::Module::Install;
 name     'Readonly-Enum';
 all_from 'lib/Readonly/Enum.pm';
 author   q{Robert Rothenberg <rrwo@cpan.org>};
-license  'artistic2';
+license  'artistic_2';
 
 perl_version 5.010;
 

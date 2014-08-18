@@ -1,6 +1,10 @@
 Revision history of Readonly-Enum
 
-        - Removed unnecessary dependency from Makefile.PL
+v0.1.5
+
+        - Removed unnecessary dependency from Makefile.PL.
+
+        - Fixed license in Makefile.PL to make CPANTS happy.
 
 v0.1.4  2014-02-23
 
@@ -26,6 +30,3 @@ v0.1.2	2013-08-29
 v0.1.1  2013-08-29
 
   	- Initial release on CPAN.
-
-
-
