@@ -1,52 +1,41 @@
-package Readonly::Enum;
-
-use v5.10;
-
-use strict;
-use warnings;
-
-use version 0.77; our $VERSION = version->declare("v0.1.5");
-
-use Scalar::Readonly qw/ readonly_on /;
-
-=head1 NAME
+# NAME
 
 Readonly::Enum - enumerated scalar values
 
-=head1 SYNOPSIS
+# SYNOPSIS
 
-  use Readonly::Enum;
+    use Readonly::Enum;
 
-  # $foo = 1, $bar = 2, etc.
+    # $foo = 1, $bar = 2, etc.
 
-  Readonly::Enum my ($foo, $bar, $baz);
+    Readonly::Enum my ($foo, $bar, $baz);
 
-  # $foo = 0, $bar = 1, etc.
+    # $foo = 0, $bar = 1, etc.
 
-  Readonly::Enum my ($foo, $bar, $baz) => 0;
+    Readonly::Enum my ($foo, $bar, $baz) => 0;
 
-  # $foo = 0, $bar = 5, $baz = 6, etc.
+    # $foo = 0, $bar = 5, $baz = 6, etc.
 
-  Readonly::Enum my ($foo, $bar, $baz) => (0, 5);
+    Readonly::Enum my ($foo, $bar, $baz) => (0, 5);
 
-=head1 DESCRIPTION
+# DESCRIPTION
 
 This module provides some syntactic sugar for defining enumerated
 scalar values.
 
-It is to L<Readonly> what the L<enum> package is to L<constant>.
+It is to [Readonly](https://metacpan.org/pod/Readonly) what the [enum](https://metacpan.org/pod/enum) package is to [constant](https://metacpan.org/pod/constant).
 Unlike enumerated constants, these scalars can be used as hash keys
 and interpolated in strings.
 
-Unlike L<enum>, only integers are supported in this version.
+Unlike [enum](https://metacpan.org/pod/enum), only integers are supported in this version.
 
-=head1 AUTHOR
+# AUTHOR
 
-Robert Rothenberg C<rrwo@cpan.org>.
+Robert Rothenberg `rrwo@cpan.org`.
 
-Current Maintainer, Nigel Horne, C<< <njh at nigelhorne.com> >>
+Current Maintainer, Nigel Horne, `<njh at nigelhorne.com>`
 
-=head1 LICENSE AND COPYRIGHT
+# LICENSE AND COPYRIGHT
 
 Copyright 2013-2014 Robert Rothenberg.
 
@@ -54,7 +43,7 @@ This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a
 copy of the full license at:
 
-L<http://www.perlfoundation.org/artistic_license_2_0>
+[http://www.perlfoundation.org/artistic\_license\_2\_0](http://www.perlfoundation.org/artistic_license_2_0)
 
 Any use, modification, and distribution of the Standard or Modified
 Versions is governed by this Artistic License. By using, modifying or
@@ -85,27 +74,3 @@ YOUR LOCAL LAW. UNLESS REQUIRED BY LAW, NO COPYRIGHT HOLDER OR
 CONTRIBUTOR WILL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR
 CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-=cut
-
-sub Readonly::Enum {
-
-    my @vals  = grep { defined $_ } @_;
-
-    my $i = 0;
-
-    my $start = 0;
-
-    for($i=0; $i<@_; $i++) {
-
-	last if defined $_[$i];
-
-	$start = @vals ? (shift @vals) : ++$start;
-
-	readonly_on($_[$i] = $start);
-
-    }
-}
-
-
-1;
