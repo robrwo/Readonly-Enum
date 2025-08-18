@@ -3,7 +3,6 @@ lib/Readonly/Enum.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-README
 README.pm
 t/01-basic.t
 t/30-basics.t
