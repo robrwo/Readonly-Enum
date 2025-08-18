@@ -5,7 +5,7 @@ use v5.10;
 use strict;
 use warnings;
 
-use version 0.77; our $VERSION = version->declare("v0.1.5");
+use version 0.77; our $VERSION = version->declare('v0.1.5');
 
 use Carp;
 use Scalar::Readonly qw/ readonly_on /;
