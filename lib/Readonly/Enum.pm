@@ -49,6 +49,8 @@ similar functionality.
 
 Robert Rothenberg C<rrwo@cpan.org>.
 
+Current Maintainer, Nigel Horne, C<< <njh at nigelhorne.com> >>
+
 =head1 LICENSE AND COPYRIGHT
 
 Copyright 2013-2014 Robert Rothenberg.

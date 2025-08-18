@@ -2,6 +2,8 @@ Revision history of Readonly-Enum
 
 v0.1.5
 
+	- New maintainer - NHORNE
+
         - Removed unnecessary dependency from Makefile.PL.
 
         - Fixed license in Makefile.PL to make CPANTS happy.
