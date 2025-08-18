@@ -23,7 +23,7 @@ WriteMakefile(
 	NAME	 => 'Readonly::Enum',		# Name of the module
 	VERSION_FROM => 'lib/Readonly/Enum.pm',	# Automatically fetch version from the module
 	AUTHOR	=> 'Nigel Horne <njh@nigelhorne.com>', # Author information
-	ABSTRACT	 => 'A Perl module for improving grammar using an external API.',
+	ABSTRACT_FROM	 => 'lib/Readonly/Enum.pm',
 	((defined($ExtUtils::MakeMaker::VERSION) && ($ExtUtils::MakeMaker::VERSION >= 6.3002))
 		? ('LICENSE'=> 'GPL')
 		: ()),
