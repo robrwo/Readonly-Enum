@@ -1,3 +1,5 @@
+.github/workflows/test.yml
+.travis.yml
 Changes
 lib/Readonly/Enum.pm
 Makefile.PL

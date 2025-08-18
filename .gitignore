@@ -1,15 +1,37 @@
-*~
-*.bak
-*.old
+!Build/
+.last_cover_stats
+/META.yml
+/META.json
+/MYMETA.*
+*.o
+*.pm.tdy
+*.bs
 
-blib/*
-pm_to_blib
+# Devel::Cover
+cover_db/
 
-Makefile
+# Devel::NYTProf
+nytprof.out
 
-Readonly-Enum-*.tar*
+# Dist::Zilla
+/.build/
 
-META.yml
-MYMETA.*
+# Module::Build
+_build/
+Build
+Build.bat
 
-inc/*
+# Module::Install
+inc/
+
+# ExtUtils::MakeMaker
+/blib/
+/_eumm/
+/*.gz
+/Makefile
+/Makefile.old
+/MANIFEST.bak
+/pm_to_blib
+/*.zip
+*.swp
+.DS_Store
