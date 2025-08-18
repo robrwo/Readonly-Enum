@@ -1,12 +1,10 @@
 Revision history of Readonly-Enum
 
 v0.1.5
-
-	- New maintainer - NHORNE
-
-        - Removed unnecessary dependency from Makefile.PL.
-
-        - Fixed license in Makefile.PL to make CPANTS happy.
+	Added hardening - check values are numeric and that there aren't too many of them
+	New maintainer - NHORNE
+	Removed unnecessary dependency from Makefile.PL.
+	Fixed license in Makefile.PL to make CPANTS happy.
 
 v0.1.4  2014-02-23
 
