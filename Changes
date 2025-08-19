@@ -2,6 +2,7 @@ Revision history of Readonly-Enum
 
 v0.1.6
 	Fix copy and paste error - (briang@github)
+	Fix README name - (Akhilanandateja@github)
 
 v0.1.5	Mon Aug 18 13:42:49 EDT 2025
 	Added hardening - check values are numeric and that there aren't too many of them
